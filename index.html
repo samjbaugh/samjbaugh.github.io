@@ -54,7 +54,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      Welcome to my webpage! I am a Statistics PhD student at UCLA working with Karen McKinnon on problems in environmental statistics. In particular, I am working on the application of spatial statistical modeling to Argo data in order to better understand how ocean heat content is changing in response to anthropogenic global warming. Prior to joining UCLA, I received my BS and MS degrees in Statistics from the University of Chicago advised by Michael Stein, where I worked on computational techniques for Gaussian process modeling. Descriptions of my past and current research projects can be found below.
+      Welcome to my webpage! I am a Statistics PhD student at UCLA working with Professor Karen McKinnon on developing Bayesian and spatio-temporal methodology for applications in environmental and climate science. My current focus is on developing methods for incorporating climate model uncertainty to the dection and attribution of anthropogenic climate change. I have also worked on the development of spatio-temporal models for ocean heat content observations in order to better understand how much heat the oceans are gaining over time.  Prior to joining UCLA, I received my BS and MS degrees in Statistics from the University of Chicago advised by Professor Michael Stein, where I worked on computational techniques for Gaussian process modeling. Descriptions of my past and current research projects can be found below.
 
     </div>
     <div class="col">
@@ -82,14 +82,14 @@
 								<h3>Hierarchical Bayesian Modeling of Ocean Heat Content and Its Uncertainty</h3>
 								<p><b>Abstract:</b> 	The accurate quantification of changes in the heat content of the world’s oceans is crucial for our understanding of the effects of increasing greenhouse gas concentrations. The Argo program, consisting of Lagrangian floats that measure vertical temperature profiles throughout the global ocean, has provided a wealth of data from which to estimate ocean heat content. However, creating a globally consistent statistical model for ocean heat content remains challenging due to the need for a globally valid covariance model that can capture complex nonstationarity. In this paper, we develop a hierarchical Bayesian Gaussian process model that uses kernel convolutions with cylindrical distances to allow for spatial non-stationarity in all model parameters while using a Vecchia process to remain computationally feasible for large spatial datasets. Our approach can produce valid credible intervals for globally integrated quantities that would not be possible using previous approaches. These advantages are demonstrated through the application of the model to Argo data, yielding credible intervals for the spatially varying trend in ocean heat content that accounts for both the uncertainty induced from interpolation and from estimating the mean field and other parameters. Through cross-validation, we show that our model out-performs an out-of-the-box approach as well as other simpler models. The code for performing this analysis is provided as the R package <b>BayesianOHC</b> available at <a href="https://github.com/samjbaugh/BayesianHeatContentCode"> https://github.com/samjbaugh/BayesianHeatContentCode</a>. </p>
 
-<img src="images/ohc_by_year.jpg" type="image/jpg" width="320" height="240">
+<img src="images/ohc_by_year.png" type="image/jpg" width="320" height="240">
 							</section>
 							<section>
 								<h3>Hierarchical Bayesian Covariance Modeling for Bayesian Detection and Attribution</h3>
 								<p><b>Abstract:</b> The detection of greenhouse gas forcing on observed temperatures requires the estimation of the forced signal as well as the internal variability covariance matrix in order to separate their contributions in the observational record. While previous approaches have taken into account the uncertainty linked to estimation of the forced signal, there has been less focus on uncertainty in the internal variability covariance matrix, despite the fact that the specification of this covariance matrix is known to meaningfully impact the results. In this paper, we develop a hierarchical Bayesian detection and attribution framework using a Laplacian eigenfunction parameterization to flexibly estimate the internal variability covariance matrix without relying on potentially uncertain empirical orthogonal function representations. This framework is able to propagate uncertainty in the estimation of the covariance matrix, as well uncertainty due to observation error and from estimating the forced component from limited model runs, to the detection and attribution results. In addition, the Laplacian eigenfunction formulation allows for the integration of information from multiple climate models and for the differences between the covariance structures simulated by models with different physics to be quantified. To demonstrate the advantages of our approach we perform a detection and attribution study on observed changes in near-surface air temperatures and compare our results to those obtained using a traditional truncated empirical orthogonal function approach. Using climate model data we can show that our result yields higher coverage of the true forced trend. 
 </p>
 
-<img src="images/s2n_ratio.png" type="image/jpg" width="320" height="240">
+<img src="images/power_uncorrected.png" type="image/jpg" width="320" height="240">
 							</section>
 
 								<h3>Computationally Efficient Spatial Likelihood Calculations using Rskelf Factorizations</h3>
@@ -100,8 +100,7 @@
 
 <img src="images/ozone_plot.png" type="image/png" width="620" height="240">
 
-<h3 id="publishedaccepted-papers">Publications:</h3>
-<p><strong>Baugh, Samuel</strong>, and Stein, Michael. Computationally efficient spatial modeling using recursive skeletonization factorizations.  <strong>Spatial Statistics, Vol. 27, Pages 18-30, 2018</strong>. <a href="https://www.sciencedirect.com/science/article/pii/S2211675317302889">Link</a>.</p>
+
 <tr>
 							</section>
 
@@ -112,25 +111,6 @@
 						</div>
 					</div>
 				</div>
-			</section>
-		<!-- Teaching -->
-			<section id="teaching" class="wrapper style1">
-			         <a name="teaching"></a>
-				<header class="major">
-					<h2>Teaching</h2>
-				</header>
-			<div class="container">
-					<div class="row">
-						<div class="4u">
-							<hr />
-						</div>
-						<div class="8u skel-cell-important">
-							<section>
-								<h2>Fall 2019: Stats 10 Sections 4A/B</h2>
-								<p>Materials can be found on the course ccle page. My office hours are 3:15-5:15pm in Slichter 2851.</p>
-							</section>
-						</div>
-
 			</section>
 		<!-- Contact -->
 			<section id="contact" class="wrapper style1">
