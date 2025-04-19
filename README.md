@@ -1,2 +1,0 @@
-# samjbaugh.github.io
-Website
