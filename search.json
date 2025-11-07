@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Description: Reactive fluid flow in Earth systems and subsurface energy and carbon management technologies is governed by complex, multiscale nonlinear dynamics. Predictive modeling of these systems remains challenging, however, due to significant discrepancies between observational, experimental, numerical, and in-silico data. One potential source of this mismatch stems from the critical influence of rock texture – the spatial distribution of minerals dictating fluid-mineral interactions along flow paths. Statistically characterizing texture in multi-mineralic rocks is especially difficult, typically relying on manual methods even for 2D images. This study introduces a novel, computationally efficient framework combining Topological Data Analysis (TDA) and Bayesian statistics for multi-scale spatial texture characterization at the pixel level. Utilizing TDA, we quantify the scale and topology of mineral connectivity across all spatial resolutions within an image, generating rotation- and translation-invariant persistence diagrams that capture the global texture pattern. We then apply Bayesian models to statistically characterize the geometric properties (e.g., area, perimeter, orientation, color) of individual connected mineral components identified during this multi-scale TDA filtration (binary dilation) process. Crucially, our framework tracks how these properties evolve across scales, pinpointing the specific resolutions/scales where homogenization occurs. Overall, our integrated TDA-Bayesian approach has three key features : (1) Statistically robust, automated texture characterization on images utilizing images ranging from outcrop (m) scale to micro-analytical methods like SEM, EPMA (mm scale) ; (2) Inherent multi-scale analysis revealing the relevant averaging scales and mineral distribution relationships critical for reactive flow; and (3) Optimized numerical speed using optimized C code for enabling rapid analysis of large, pixel-scale gridded images. We demonstrate the framework’s utility on geologically realistic synthetic microstructures and natural rock thin sections, extracting a parsimonious set of multi-scale statistical features most relevant for predicting reactive flow behavior."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sam Baugh",
+    "section": "",
+    "text": "Welcome to my website! I am an Assistant Professor of Statistics at Pennsylvania State University. My research focuses on methodological statistics in spatial statistics, latent variable modeling, and Bayesian inference, with applications in climate science, geosciences, and psychometrics. I was previously a postdoctoral scholar at Lawrence Berkeley National Laboratory, and I receiving my PhD from UCLA with Dr. Karen McKinnon. Please see the “research” page for publications and ongoing projects."
+  },
+  {
+    "objectID": "stat513.html",
+    "href": "stat513.html",
+    "title": "Stat 513",
+    "section": "",
+    "text": "Name\nRole\nEmail\nOffice\nOffice Hours\n\n\n\n\nSam Baugh\nInstructor\nsamuelbaugh@psu.edu\nThomas 413\nMW 10:00-11:00\n\n\nSiyu Huang\nTA\nsph6006@psu.edu\nThird floor lounge\nF 12:00-13:00"
+  },
+  {
+    "objectID": "stat513.html#instructor-information",
+    "href": "stat513.html#instructor-information",
+    "title": "Stat 513",
+    "section": "",
+    "text": "Name\nRole\nEmail\nOffice\nOffice Hours\n\n\n\n\nSam Baugh\nInstructor\nsamuelbaugh@psu.edu\nThomas 413\nMW 10:00-11:00\n\n\nSiyu Huang\nTA\nsph6006@psu.edu\nThird floor lounge\nF 12:00-13:00"
+  },
+  {
+    "objectID": "stat513.html#assignments",
+    "href": "stat513.html#assignments",
+    "title": "Stat 513",
+    "section": "Assignments",
+    "text": "Assignments\n\n\n\nAssignment\nDue (11:59pm)\nSolutions\n\n\n\n\nProblem Set 1\nSeptember 7\nSolutions\n\n\nProblem Set 2\nSeptember 21\nSolutions\n\n\nProblem Set 3\nOctober 5\nSolutions\n\n\nProblem Set 4\nOctober 19\nSolutions\n\n\nProblem Set 5\nNovember 12"
+  },
+  {
+    "objectID": "stat513.html#assignments-1",
+    "href": "stat513.html#assignments-1",
+    "title": "Stat 513",
+    "section": "Assignments",
+    "text": "Assignments\n\n\n\nAssignment\nDue (11:59pm)\nSolutions\n\n\n\n\nProblem Set 1\nSeptember 7\nSolutions\n\n\nProblem Set 2\nSeptember 21\nSolutions\n\n\nProblem Set 3\nOctober 5\nSolutions\n\n\nProblem Set 4\nOctober 19\nSolutions\n\n\nProblem Set 5\nNovember 12"
+  },
+  {
+    "objectID": "stat513.html#exam-schedule",
+    "href": "stat513.html#exam-schedule",
+    "title": "Stat 513",
+    "section": "Exam Schedule",
+    "text": "Exam Schedule"
+  },
+  {
+    "objectID": "stat513.html#course-schedule",
+    "href": "stat513.html#course-schedule",
+    "title": "Stat 513",
+    "section": "Course Schedule",
+    "text": "Course Schedule\n\n\n\nWeek\nEvent\n\n\n\n\n11\n\n\n\n12\n\n\n\n13\n\n\n\n14\n\n\n\n15"
+  },
+  {
+    "objectID": "classes.html",
+    "href": "classes.html",
+    "title": "Classes",
+    "section": "",
+    "text": "Fall 2025\n\nStat 513"
+  },
+  {
+    "objectID": "research.html#multi-scale-spatial-texture-characterization-in-earth-systems-using-topological-data-analysis-and-bayesian-hierarchical-modeling",
+    "href": "research.html#multi-scale-spatial-texture-characterization-in-earth-systems-using-topological-data-analysis-and-bayesian-hierarchical-modeling",
+    "title": "Research",
+    "section": "Multi-Scale Spatial Texture Characterization in Earth Systems using Topological Data Analysis and Bayesian Hierarchical Modeling",
+    "text": "Multi-Scale Spatial Texture Characterization in Earth Systems using Topological Data Analysis and Bayesian Hierarchical Modeling\nDescription: Diagnostic classification models assume the existence of latent attribute profiles, the possession of whichincreases the probability of responding correctly to questions requiring the corresponding attributes.Through the use of longitudinally administered exams, the degree to which students are acquiring coreattributes over time can be assessed. While past approaches to longitudinal diagnostic classificationmodeling perform inference on the overall probability of acquiring particular attributes, there is particularinterest in the relationship between student progression and student covariates such as intervention effects.To address this need, we propose an integrated Bayesian model for student progression in a longitudinaldiagnostic classification modeling framework. Using Pòlya-gamma augmentation with two logistic linkfunctions, we achieve computationally efficient posterior estimation with a conditionally Gibbs sampling procedure. We show that this approach achieves accurate parameter recovery when evaluated using simulated data. We also demonstrate the method on a real-world educational testing data set."
+  },
+  {
+    "objectID": "research.html#topological-data-analysis-for-earth-systems-modeling",
+    "href": "research.html#topological-data-analysis-for-earth-systems-modeling",
+    "title": "Research",
+    "section": "",
+    "text": "Description: Reactive fluid flow in Earth systems and subsurface energy and carbon management technologies is governed by complex, multiscale nonlinear dynamics. Predictive modeling of these systems remains challenging, however, due to significant discrepancies between observational, experimental, numerical, and in-silico data. One potential source of this mismatch stems from the critical influence of rock texture – the spatial distribution of minerals dictating fluid-mineral interactions along flow paths. Statistically characterizing texture in multi-mineralic rocks is especially difficult, typically relying on manual methods even for 2D images. This study introduces a novel, computationally efficient framework combining Topological Data Analysis (TDA) and Bayesian statistics for multi-scale spatial texture characterization at the pixel level. Utilizing TDA, we quantify the scale and topology of mineral connectivity across all spatial resolutions within an image, generating rotation- and translation-invariant persistence diagrams that capture the global texture pattern. We then apply Bayesian models to statistically characterize the geometric properties (e.g., area, perimeter, orientation, color) of individual connected mineral components identified during this multi-scale TDA filtration (binary dilation) process. Crucially, our framework tracks how these properties evolve across scales, pinpointing the specific resolutions/scales where homogenization occurs. Overall, our integrated TDA-Bayesian approach has three key features : (1) Statistically robust, automated texture characterization on images utilizing images ranging from outcrop (m) scale to micro-analytical methods like SEM, EPMA (mm scale) ; (2) Inherent multi-scale analysis revealing the relevant averaging scales and mineral distribution relationships critical for reactive flow; and (3) Optimized numerical speed using optimized C code for enabling rapid analysis of large, pixel-scale gridded images. We demonstrate the framework’s utility on geologically realistic synthetic microstructures and natural rock thin sections, extracting a parsimonious set of multi-scale statistical features most relevant for predicting reactive flow behavior."
+  },
+  {
+    "objectID": "research.html#spatio-temporal-stochastic-interventions-for-causal-inference-in-climate-science",
+    "href": "research.html#spatio-temporal-stochastic-interventions-for-causal-inference-in-climate-science",
+    "title": "Research",
+    "section": "Spatio-Temporal Stochastic Interventions for Causal Inference in Climate Science",
+    "text": "Spatio-Temporal Stochastic Interventions for Causal Inference in Climate Science\n\n\n\n\nDescription: While physical understanding predicts a causal relationship between greenhouse gas emissions and warming in the global climate, estimation of the exact magnitude of this causal effect is notoriously difficult to constrain. One of the reasons for this high degree of uncertainty is that the climate system’s overall sensitivity depends on how the spatial pattern of temperature changes causally affects outgoing temperature. While climate model simulations provide dynamically informed estimates, performing inference on the observations is challenging due to the lack of suitable counterfactuals and the high-dimensional nature of the global climate system. We propose to address these difficulties through the causal inference framework of stochastic interventions, where the interventions are modeled as continuous spatial Gaussian processes on the domain. Representing the interventions a spatial stochastic process allows for the causal effects to be consistently estimated from the limited observational record. Using a Bayesian framework, prior information in the form of climate model simulations is incorporated into the form of the stochastic interventions in order to relax the underlying assumptions with physical information. The robustness of the results are assessed through sensitivity analyses and validation studies using climate models.\n\n\nDOI: To come!"
+  },
+  {
+    "objectID": "research.html#predictive-item-response-theory-models-for-standards-based-grading",
+    "href": "research.html#predictive-item-response-theory-models-for-standards-based-grading",
+    "title": "Research",
+    "section": "Predictive Item Response Theory Models for Standards-Based Grading",
+    "text": "Predictive Item Response Theory Models for Standards-Based Grading\n\n\n\n\nDescription: TBD"
+  },
+  {
+    "objectID": "research.html#causal-discovery-for",
+    "href": "research.html#causal-discovery-for",
+    "title": "Research",
+    "section": "Causal Discovery for",
+    "text": "Causal Discovery for\n\nWork with Chris Forest, Mei-Li Haan,"
+  },
+  {
+    "objectID": "research.html#causal-discovery-for-courage-data",
+    "href": "research.html#causal-discovery-for-courage-data",
+    "title": "Research",
+    "section": "Causal Discovery for COURAGE Data",
+    "text": "Causal Discovery for COURAGE Data\n\nWork with Chris Forest, Mei-Li Haan,"
+  },
+  {
+    "objectID": "research.html#detection-and-attr",
+    "href": "research.html#detection-and-attr",
+    "title": "Research",
+    "section": "Detection and Attr",
+    "text": "Detection and Attr"
+  },
+  {
+    "objectID": "research.html#bayesian-hierarchical-models-for-longitudinal-bayesian-hierarchical-modeling",
+    "href": "research.html#bayesian-hierarchical-models-for-longitudinal-bayesian-hierarchical-modeling",
+    "title": "Research",
+    "section": "Bayesian Hierarchical Models for Longitudinal Bayesian Hierarchical Modeling",
+    "text": "Bayesian Hierarchical Models for Longitudinal Bayesian Hierarchical Modeling\nDescription: Diagnostic classification models assume the existence of latent attribute profiles, the possession of whichincreases the probability of responding correctly to questions requiring the corresponding attributes.Through the use of longitudinally administered exams, the degree to which students are acquiring coreattributes over time can be assessed. While past approaches to longitudinal diagnostic classificationmodeling perform inference on the overall probability of acquiring particular attributes, there is particularinterest in the relationship between student progression and student covariates such as intervention effects.To address this need, we propose an integrated Bayesian model for student progression in a longitudinaldiagnostic classification modeling framework. Using Pòlya-gamma augmentation with two logistic linkfunctions, we achieve computationally efficient posterior estimation with a conditionally Gibbs sampling procedure. We show that this approach achieves accurate parameter recovery when evaluated using simulated data. We also demonstrate the method on a real-world educational testing data set.\n\nWork with Joseph Resch, Minjeong Jeon,"
+  },
+  {
+    "objectID": "research.html#latent-space-models",
+    "href": "research.html#latent-space-models",
+    "title": "Research",
+    "section": "Latent Space Models",
+    "text": "Latent Space Models\n\n\n\n\nDescription: Classic item response models assume that all items with the same difficulty have the same response probability among all respondents with the same ability. These assumptions, however, may very well be violated in practice, and it is not straightforward to assess whether these assumptions are violated, because neither the abilities of respondents nor the difficulties of items are observed. An example is an educational assessment where unobserved heterogeneity is present, arising from unobserved variables such as cultural background and upbringing of students, the quality of mentorship and other forms of emotional and professional support received by students, and other unobserved variables that may affect response probabilities. To address such violations of assumptions, we introduce a novel latent space model which assumes that both items and respondents are embedded in an unobserved metric space, with the probability of a correct response decreasing as a function of the distance between the respondent’s and the item’s position in the latent space. The resulting latent space approach provides an interaction map that represents interactions of respondents and items, and helps derive insightful diagnostic information on items as well as respondents. In practice, such interaction maps enable teachers to detect students from underrepresented groups who need more support than other students. We provide empirical evidence to demonstrate the usefulness of the proposed latent space approach, along with simulation results.\n\n\nWork with Minjeong Jeon, Ik-hoon Jin, and Michael Schweinberger"
+  },
+  {
+    "objectID": "research.html#detection-and-attribution",
+    "href": "research.html#detection-and-attribution",
+    "title": "Research",
+    "section": "Detection and Attribution",
+    "text": "Detection and Attribution\n\nWork with Karen McKinnon"
+  },
+  {
+    "objectID": "research.html#detection-and-attribution-1",
+    "href": "research.html#detection-and-attribution-1",
+    "title": "Research",
+    "section": "Detection and Attribution",
+    "text": "Detection and Attribution\n\nWork with Karen McKinnon"
+  },
+  {
+    "objectID": "research.html#bayesian-hierarchical-models-for-ocean-heat-content-modeling",
+    "href": "research.html#bayesian-hierarchical-models-for-ocean-heat-content-modeling",
+    "title": "Research",
+    "section": "Bayesian Hierarchical Models for Ocean Heat Content Modeling",
+    "text": "Bayesian Hierarchical Models for Ocean Heat Content Modeling\n\n\n\n\nDescription: The accurate quantification of changes in the heat content of the world’s oceans is crucial for our understanding of the effects of increasing greenhouse gas concentrations. The Argo program, consisting of Lagrangian floats that measure vertical temperature profiles throughout the global ocean, has provided a wealth of data from which to estimate ocean heat content. However, creating a globally consistent statistical model for ocean heat content remains challenging due to the need for a globally valid covariance model that can capture complex nonstationarity. In this paper, we develop a hierarchical Bayesian Gaussian process model that uses kernel convolutions with cylindrical distances to allow for spatial nonstationarity in all model parameters while using a Vecchia process to remain computationally feasible for large spatial datasets. Our approach can produce valid credible intervals for globally integrated quantities that would not be possible using previous approaches. These advantages are demonstrated through the application of the model to Argo data, yielding credible intervals for the spatially varying trend in ocean heat content that accounts for both the uncertainty induced from interpolation and from estimating the mean field and other parameters. Through cross-validation, we show that our model outperforms an out-of-the-box approach as well as other simpler models. The code for performing this analysis is provided as the R package BayesianOHC.\n\n\nWork with Karen McKinnon\n\n\nDOI: https://doi.org/10.1214/22-AOAS1605"
+  },
+  {
+    "objectID": "research.html#bayesian-hierarchical-models-for-longitudinal-cognitive-diagnostic-modeling",
+    "href": "research.html#bayesian-hierarchical-models-for-longitudinal-cognitive-diagnostic-modeling",
+    "title": "Research",
+    "section": "Bayesian Hierarchical Models for Longitudinal Cognitive Diagnostic Modeling",
+    "text": "Bayesian Hierarchical Models for Longitudinal Cognitive Diagnostic Modeling\n\n\n\n\nDescription: Diagnostic classification models assume the existence of latent attribute profiles, the possession of whichincreases the probability of responding correctly to questions requiring the corresponding attributes.Through the use of longitudinally administered exams, the degree to which students are acquiring coreattributes over time can be assessed. While past approaches to longitudinal diagnostic classificationmodeling perform inference on the overall probability of acquiring particular attributes, there is particularinterest in the relationship between student progression and student covariates such as intervention effects.To address this need, we propose an integrated Bayesian model for student progression in a longitudinaldiagnostic classification modeling framework. Using Pòlya-gamma augmentation with two logistic linkfunctions, we achieve computationally efficient posterior estimation with a conditionally Gibbs sampling procedure. We show that this approach achieves accurate parameter recovery when evaluated using simulated data. We also demonstrate the method on a real-world educational testing data set.\n\n\nWork with Joseph Resch, Minjeong Jeon, Hao Duan, Michael Cotterell, and Matthew Madison\n\n\nDOI: https://doi.org/10.1017/psy.2025.10031"
+  },
+  {
+    "objectID": "research.html#climate-change-detection-and-attribution",
+    "href": "research.html#climate-change-detection-and-attribution",
+    "title": "Research",
+    "section": "Climate Change Detection and Attribution",
+    "text": "Climate Change Detection and Attribution\n\n\n\n\nDescription: Regression-based optimal fingerprinting techniques for climate change detection and attribution require the estimation of the forced signal as well as the internal variability covariance matrix in order to distinguish between their influences in the observational record. While previously developed approaches have taken into account the uncertainty linked to the estimation of the forced signal, there has been less focus on uncertainty in the covariance matrix describing natural variability, despite the fact that the specification of this covariance matrix is known to meaningfully impact the results. Here we propose a Bayesian optimal fingerprinting framework using a Laplacian basis function parameterization of the covariance matrix. This parameterization, unlike traditional methods based on principal components, does not require the basis vectors themselves to be estimated from climate model data, which allows for the uncertainty in estimating the covariance structure to be propagated to the optimal fingerprinting regression parameter. We show through a CMIP6 validation study that this proposed approach achieves better-calibrated coverage rates of the true regression parameter than principal component-based approaches. When applied to HadCRUT observational data, the proposed approach detects anthropogenic warming with higher confidence levels, and with lower variability over the choice of climate models, than principal-component-based approaches.\n\n\nWork with Karen McKinnon\n\n\nDOI: https://doi.org/10.48550/arXiv.2208.02919"
+  },
+  {
+    "objectID": "research.html#causal-discovery-of-meteorological-dynamics-in-mobile-tower-data",
+    "href": "research.html#causal-discovery-of-meteorological-dynamics-in-mobile-tower-data",
+    "title": "Research",
+    "section": "Causal Discovery of Meteorological Dynamics in Mobile Tower Data",
+    "text": "Causal Discovery of Meteorological Dynamics in Mobile Tower Data\n\n\n\n\nDescription: Recent advances in causal inference use Structural Causal Modeling (SCM) to infer the direction of cause-effect relationships. Our research uses SCM to identify causal relationships in meteorological processes at the surface level, and develop visualizations for a broader audience. We studied interactions among rain, temperature, specific humidity, aerosols, and CO\\(_2\\). Data was obtained from the CoURAGE project, consisting of three (3) mobile stations located in the urban, rural, and bay area of Baltimore. We use 1 minute interval data for analysis of the relationship among the variables of rain events and only data that contains precipitation. For the relation with CO\\(_2\\), we use 30-minute intervals, separating data by daytime and nighttime. We perform a time series analysis using the Tigramite python package. With these causal tools, we perform Causal Discovery to estimate the structure of the SCM. We then use Wright’s path estimation to find the causal effects for a given SCM using the ‘do calculus’. Our findings suggest that specific humidity has a stronger causal relation with temperature and aerosols than with precipitation. Additionally, CO\\(_2\\) tends to have a negative relation with temperature.\n\n\n\n\nWork with Chris Forest, Alondra Alvarez-Castro, and MeiLi Haan\n\n\nDOI: To come!"
+  },
+  {
+    "objectID": "research.html#a-title",
+    "href": "research.html#a-title",
+    "title": "Research",
+    "section": "A title",
+    "text": "A title\n\n\n\n\nDescription: Reactive fluid flow in Earth systems and subsurface energy and carbon management technologies is governed by complex, multiscale nonlinear dynamics. Predictive modeling of these systems remains challenging, however, due to significant discrepancies between observational, experimental, numerical, and in-silico data. One potential source of this mismatch stems from the critical influence of rock texture – the spatial distribution of minerals dictating fluid-mineral interactions along flow paths. Statistically characterizing texture in multi-mineralic rocks is especially difficult, typically relying on manual methods even for 2D images. This study introduces a novel, computationally efficient framework combining Topological Data Analysis (TDA) and Bayesian statistics for multi-scale spatial texture characterization at the pixel level. Utilizing TDA, we quantify the scale and topology of mineral connectivity across all spatial resolutions within an image, generating rotation- and translation-invariant persistence diagrams that capture the global texture pattern. We then apply Bayesian models to statistically characterize the geometric properties (e.g., area, perimeter, orientation, color) of individual connected mineral components identified during this multi-scale TDA filtration (binary dilation) process. Crucially, our framework tracks how these properties evolve across scales, pinpointing the specific resolutions/scales where homogenization occurs. Overall, our integrated TDA-Bayesian approach has three key features : (1) Statistically robust, automated texture characterization on images utilizing images ranging from outcrop (m) scale to micro-analytical methods like SEM, EPMA (mm scale) ; (2) Inherent multi-scale analysis revealing the relevant averaging scales and mineral distribution relationships critical for reactive flow; and (3) Optimized numerical speed using optimized C code for enabling rapid analysis of large, pixel-scale gridded images. We demonstrate the framework’s utility on geologically realistic synthetic microstructures and natural rock thin sections, extracting a parsimonious set of multi-scale statistical features most relevant for predicting reactive flow behavior."
+  },
+  {
+    "objectID": "research.html#httpswww.cambridge.orgcorejournalspsychometrikaarticlemapping-unobserved-itemrespondent-interactions-a-latent-space-item-response-model-with-interaction-map196a5c47c289a0bbb8ad59f251254e8e",
+    "href": "research.html#httpswww.cambridge.orgcorejournalspsychometrikaarticlemapping-unobserved-itemrespondent-interactions-a-latent-space-item-response-model-with-interaction-map196a5c47c289a0bbb8ad59f251254e8e",
+    "title": "Research",
+    "section": "https://www.cambridge.org/core/journals/psychometrika/article/mapping-unobserved-itemrespondent-interactions-a-latent-space-item-response-model-with-interaction-map/196A5C47C289A0BBB8AD59F251254E8E",
+    "text": "https://www.cambridge.org/core/journals/psychometrika/article/mapping-unobserved-itemrespondent-interactions-a-latent-space-item-response-model-with-interaction-map/196A5C47C289A0BBB8AD59F251254E8E\n\n\n\n\nDescription: Classic item response models assume that all items with the same difficulty have the same response probability among all respondents with the same ability. These assumptions, however, may very well be violated in practice, and it is not straightforward to assess whether these assumptions are violated, because neither the abilities of respondents nor the difficulties of items are observed. An example is an educational assessment where unobserved heterogeneity is present, arising from unobserved variables such as cultural background and upbringing of students, the quality of mentorship and other forms of emotional and professional support received by students, and other unobserved variables that may affect response probabilities. To address such violations of assumptions, we introduce a novel latent space model which assumes that both items and respondents are embedded in an unobserved metric space, with the probability of a correct response decreasing as a function of the distance between the respondent’s and the item’s position in the latent space. The resulting latent space approach provides an interaction map that represents interactions of respondents and items, and helps derive insightful diagnostic information on items as well as respondents. In practice, such interaction maps enable teachers to detect students from underrepresented groups who need more support than other students. We provide empirical evidence to demonstrate the usefulness of the proposed latent space approach, along with simulation results.\n\n\nWork with Minjeong Jeon, Ik-hoon Jin, and Michael Schweinberger"
+  },
+  {
+    "objectID": "research.html#mapping-unobserved-itemrespondent-interactions-a-latent-space-item-response-model-with-interaction-map",
+    "href": "research.html#mapping-unobserved-itemrespondent-interactions-a-latent-space-item-response-model-with-interaction-map",
+    "title": "Research",
+    "section": "Mapping Unobserved Item–Respondent Interactions: A Latent Space Item Response Model with Interaction Map",
+    "text": "Mapping Unobserved Item–Respondent Interactions: A Latent Space Item Response Model with Interaction Map\n\n\n\n\nDescription: Classic item response models assume that all items with the same difficulty have the same response probability among all respondents with the same ability. These assumptions, however, may very well be violated in practice, and it is not straightforward to assess whether these assumptions are violated, because neither the abilities of respondents nor the difficulties of items are observed. An example is an educational assessment where unobserved heterogeneity is present, arising from unobserved variables such as cultural background and upbringing of students, the quality of mentorship and other forms of emotional and professional support received by students, and other unobserved variables that may affect response probabilities. To address such violations of assumptions, we introduce a novel latent space model which assumes that both items and respondents are embedded in an unobserved metric space, with the probability of a correct response decreasing as a function of the distance between the respondent’s and the item’s position in the latent space. The resulting latent space approach provides an interaction map that represents interactions of respondents and items, and helps derive insightful diagnostic information on items as well as respondents. In practice, such interaction maps enable teachers to detect students from underrepresented groups who need more support than other students. We provide empirical evidence to demonstrate the usefulness of the proposed latent space approach, along with simulation results.\n\n\nWork with Minjeong Jeon, Ik-hoon Jin, and Michael Schweinberger"
+  },
+  {
+    "objectID": "research.html#latent-space-models-for-social-network-data",
+    "href": "research.html#latent-space-models-for-social-network-data",
+    "title": "Research",
+    "section": "Latent Space Models for Social Network Data",
+    "text": "Latent Space Models for Social Network Data\n\n\n\n\nDescription: Classic item response models assume that all items with the same difficulty have the same response probability among all respondents with the same ability. These assumptions, however, may very well be violated in practice, and it is not straightforward to assess whether these assumptions are violated, because neither the abilities of respondents nor the difficulties of items are observed. An example is an educational assessment where unobserved heterogeneity is present, arising from unobserved variables such as cultural background and upbringing of students, the quality of mentorship and other forms of emotional and professional support received by students, and other unobserved variables that may affect response probabilities. To address such violations of assumptions, we introduce a novel latent space model which assumes that both items and respondents are embedded in an unobserved metric space, with the probability of a correct response decreasing as a function of the distance between the respondent’s and the item’s position in the latent space. The resulting latent space approach provides an interaction map that represents interactions of respondents and items, and helps derive insightful diagnostic information on items as well as respondents. In practice, such interaction maps enable teachers to detect students from underrepresented groups who need more support than other students. We provide empirical evidence to demonstrate the usefulness of the proposed latent space approach, along with simulation results.\n\n\nWork with Minjeong Jeon, Ick Hoon Jin, and Michael Schweinberger\n\n\nDOI: https://doi.org/10.1007/s11336-021-09762-5"
+  },
+  {
+    "objectID": "research.html#more-coming-soon",
+    "href": "research.html#more-coming-soon",
+    "title": "Research",
+    "section": "More coming soon!",
+    "text": "More coming soon!"
+  }
+]
