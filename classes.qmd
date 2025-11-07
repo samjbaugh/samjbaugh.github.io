@@ -1,0 +1,11 @@
+---
+title: "Classes"
+image: ""
+about:
+  template: solana
+---
+
+### Fall 2025
+
+#### [Stat 513](stat513.qmd)
+

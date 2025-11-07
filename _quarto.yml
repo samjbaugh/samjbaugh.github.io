@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sam Baugh"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: classes.qmd
+        text: Classes
+
+format:
+  html:
+    theme: [flatly]
+    css: styles.css

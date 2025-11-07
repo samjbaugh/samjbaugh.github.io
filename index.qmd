@@ -1,0 +1,13 @@
+---
+title: "Sam Baugh"
+image: "files/headshot.png"
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      href: mailto:sxb6332@psu.edu
+---
+
+Welcome to my website! I am an Assistant Professor of Statistics at Pennsylvania State University. My research focuses on methodological statistics in spatial statistics, latent variable modeling, and Bayesian inference, with applications in climate science, geosciences, and psychometrics. I was previously a postdoctoral scholar at Lawrence Berkeley National Laboratory, and I receiving my PhD from UCLA with Dr. Karen McKinnon. Please see the "research" page for publications and ongoing projects. 
+
+
